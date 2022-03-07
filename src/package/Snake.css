@@ -1,12 +1,10 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+.snake__app {
     margin: 0;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
     color: antiquewhite;
-}
-
-h1 {
-    margin: 8px;
 }
 
 .background-container {
@@ -22,6 +20,7 @@ h1 {
     background-image: url("img/woodSmall.jpg");
     background-size: cover;
 }
+
 .grid {
     display: flex;
     flex-wrap: wrap;
